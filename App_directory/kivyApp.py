@@ -6,7 +6,7 @@ class MainApp(App):
     def build(self):
         label = Label(
             text = "Adly",
-            size_hint = (.5, .5),
+            size_hint = (.9, .9),
             pos_hint={'center_x': .5 , 'center_y': .5 }
             )
 
