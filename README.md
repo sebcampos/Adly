@@ -15,7 +15,7 @@ To create conda virtual enviornemt have miniconda or anaconda installed and call
 
 Launch virtual enviornemnt with the command below
 
-`conda activate adly_venv``
+`conda activate adly_venv`
 
 
 Lastly install kivy into the adly_venv after launching the venv
