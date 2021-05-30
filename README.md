@@ -25,5 +25,6 @@ Lastly install kivy into the adly_venv after launching the venv
 
 
 ## Resources
-- Python kivy Documentation: https://realpython.com/mobile-app-kivy-python/
+- Python kivy tutorial: https://realpython.com/mobile-app-kivy-python/
 - Offical kivy Documentation: https://kivy.org/doc/stable/gettingstarted/intro.html
+- likegeeks.com tutorial: https://likegeeks.com/kivy-tutorial/
