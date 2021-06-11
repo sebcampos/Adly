@@ -7,18 +7,20 @@ from kivy.config import Config
 
 
 #Our Class object for Adly
-from AdlyClassObjs import *
+from AdlyObjs import *
 
 #Set out App to resizeable for Mobile functionality
 Config.set("graphics", "resizable", True)
+
+
+
 
 #Main App Object
 class MainApp(App):
     def build(self):
         self.title = "Adly Beta Version"
-        self.window = AdlyLayout()
-        adly_title = MainTitle().title
-        self.window.add_widget(adly_title)
+        self.window = FloatLayout
+        self.window.add_widget(mainTitle)
         return self.window
 
 if __name__ == "__main__":
