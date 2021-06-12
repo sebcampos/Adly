@@ -3,6 +3,7 @@ from kivy.uix.label import Label
 from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
+from kivy.graphics import Ellipse
 from kivy.uix.image import Image
 
 
@@ -44,7 +45,11 @@ three_dots = Button(
     pos_hint={'center_x': .9 , 'center_y': .9},
     )
     
-three_dots.background_normal = "./imgs/three_dots.jpg"
+one_dot = Ellipse(
+    angle_start = 0,
+    angle_end = 360,
+    size=(10,10)
+)
 
-
+three_dots.canvas.add(one_dot)
 #img = Image(source="./imgs/test.png")

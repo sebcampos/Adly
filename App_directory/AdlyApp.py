@@ -30,7 +30,6 @@ class MainApp(App):
         #adding navBar object to the app window 
         self.window.add_widget(navBar)
         
-        
         self.window.add_widget(three_dots)
         
         #returning the window will return the app
