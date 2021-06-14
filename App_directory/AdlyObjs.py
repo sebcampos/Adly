@@ -41,16 +41,8 @@ navBar.add_widget(
 
 #three dots
 three_dots = Button(
-    size_hint=(.05, .1),
+    size_hint=(.03, .04),
     pos_hint={'center_x': .9 , 'center_y': .9},
+    background_normal = "./imgs/size_24px.png"
     )
     
-one_dot = Ellipse(
-    angle_start = 0,
-    angle_end = 360,
-    pos_hint = three_dots.pos_hint,
-    size_hint= three_dots.size_hint
-)
-
-three_dots.canvas.add(one_dot)
-#img = Image(source="./imgs/test.png")
