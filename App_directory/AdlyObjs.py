@@ -48,7 +48,8 @@ three_dots = Button(
 one_dot = Ellipse(
     angle_start = 0,
     angle_end = 360,
-    size=(10,10)
+    pos_hint = three_dots.pos_hint,
+    size_hint= three_dots.size_hint
 )
 
 three_dots.canvas.add(one_dot)
