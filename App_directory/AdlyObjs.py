@@ -65,7 +65,7 @@ class AdlyNavButton(Button):
         super(AdlyNavButton, self).__init__(**kwargs)
         self.size_hint=(.08, .1)
         self.pos_hint={'center_x': .9 , 'center_y': .9}
-        self.background_normal = "./imgs/size_64px.png"
+        self.background_normal = "./imgs/square-2.png"
         self.on_press = lambda: navBar.reposition()
     
     
