@@ -9,6 +9,7 @@ from kivy.config import Config
 #Our objects for Adly
 from AdlyObjs import *
 
+
 #Set out App to resizeable for Mobile functionality
 Config.set("graphics", "resizable", True)
 
@@ -22,15 +23,15 @@ class MainApp(App):
         self.title = "Adly Beta Version"
         
         #setting the app window attribute to a float layout using the FloatLayout() class
-        self.window = FloatLayout()
+        self.window = mainScreen
         
         #adding mainTitle object to the app window 
-        self.window.add_widget(mainTitle)
+        self.window.add_widget(MainTitle())
         
         #adding navBar object to the app window 
         self.window.add_widget(navBar)
         
-        self.window.add_widget(three_dots)
+        self.window.add_widget(navButton)
         
         #returning the window will return the app
         return self.window
