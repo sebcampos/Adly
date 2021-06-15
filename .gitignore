@@ -1,2 +1,4 @@
 .DS_Store
 App_directory/.DS_Store
+App_directory/config.py
+
