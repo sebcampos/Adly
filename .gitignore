@@ -1,4 +1,4 @@
 .DS_Store
 App_directory/.DS_Store
 App_directory/config.py
-
+App_directory/__pycache__
